@@ -6,7 +6,7 @@ To implement multithreading, I used **“pthread.h”** header file with **“pt
 As the processing of different parts of array is done through different threads which run side by side, improving the performance of merge sort.
 
 ## Working
-![Flow Chart](https://github.com/aa22dev/merge-sort-multithreading/img/blob/master/flowChart-OS.png?raw=true)
+![Flow Chart](https://github.com/aa22dev/merge-sort-multithreading/blob/main/img/flowChart-OS.png?raw=true)
 
 ## Usage
 1. Run the program
