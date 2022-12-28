@@ -114,8 +114,7 @@ as left and thread 2 array is passed as right array by mentioning starting point
 point of arrays.
 
 ```C++
-merge(arrSize / 2 + 1, (arrSize / 2) + (arrSize - 1 - (arrSize / 2)) / 2 + (2 < (arrSize % 
-maxThreads)), arrSize - 1);
+merge(arrSize / 2 + 1, (arrSize / 2) + (arrSize - 1 - (arrSize / 2)) / 2 + (2 < (arrSize % maxThreads)), arrSize - 1);
 ```
 This part is to join arrays of thread 3 and 4. Adding 1 to the midpoint of an array gives us
 the starting index of array in thread 3.
